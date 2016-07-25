@@ -12,7 +12,7 @@
 
     </android.support.v7.widget.Toolbar>
 
-    <com.dpr.calendar.widget.WeekCalendarView
+    <com.odoo.calendar.widget.WeekCalendarView
         android:id="@+id/weekCalendar"
         android:layout_width="match_parent"
         android:layout_height="wrap_content" />

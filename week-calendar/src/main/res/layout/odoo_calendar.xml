@@ -31,7 +31,7 @@
             android:tint="#fff" />
     </LinearLayout>
 
-    <com.dpr.calendar.utils.CalendarView
+    <com.odoo.calendar.utils.CalendarView
         android:id="@+id/calendarView"
         android:layout_width="match_parent"
         android:layout_height="wrap_content" />

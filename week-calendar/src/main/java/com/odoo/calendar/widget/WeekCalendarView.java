@@ -1,4 +1,4 @@
-package com.dpr.calendar.widget;
+package com.odoo.calendar.widget;
 
 import android.annotation.TargetApi;
 import android.content.Context;
@@ -9,12 +9,12 @@ import android.view.View;
 import android.widget.LinearLayout;
 import android.widget.TextView;
 
-import com.dpr.calendar.R;
-import com.dpr.calendar.listeners.CalendarDateChangeListener;
-import com.dpr.calendar.listeners.CalendarWeekDayHighlightListener;
-import com.dpr.calendar.listeners.OnMonthChangeListener;
-import com.dpr.calendar.utils.CalendarView;
-import com.dpr.calendar.utils.DateInfo;
+import com.odoo.calendar.R;
+import com.odoo.calendar.listeners.CalendarDateChangeListener;
+import com.odoo.calendar.listeners.CalendarWeekDayHighlightListener;
+import com.odoo.calendar.listeners.OnMonthChangeListener;
+import com.odoo.calendar.utils.CalendarView;
+import com.odoo.calendar.utils.DateInfo;
 
 public class WeekCalendarView extends LinearLayout implements View.OnClickListener, OnMonthChangeListener {
     public static final String TAG = WeekCalendarView.class.getSimpleName();

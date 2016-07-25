@@ -1,4 +1,4 @@
-package com.dpr.calendar.utils;
+package com.odoo.calendar.utils;
 
 import java.util.Calendar;
 import java.util.Locale;

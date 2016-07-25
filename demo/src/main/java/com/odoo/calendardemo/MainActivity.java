@@ -1,4 +1,4 @@
-package com.dpr.dpr.calendardemo;
+package com.odoo.calendardemo;
 
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
@@ -6,12 +6,13 @@ import android.support.v7.widget.Toolbar;
 import android.util.Log;
 import android.widget.TextView;
 
-import com.dpr.calendar.listeners.CalendarDateChangeListener;
-import com.dpr.calendar.listeners.CalendarWeekDayHighlightListener;
-import com.dpr.calendar.utils.DateInfo;
-import com.dpr.calendar.widget.WeekCalendarView;
+import com.odoo.calendar.listeners.CalendarDateChangeListener;
+import com.odoo.calendar.listeners.CalendarWeekDayHighlightListener;
+import com.odoo.calendar.utils.DateInfo;
+import com.odoo.calendar.widget.WeekCalendarView;
 
-public class MainActivity extends AppCompatActivity implements CalendarDateChangeListener, CalendarWeekDayHighlightListener {
+public class MainActivity extends AppCompatActivity implements
+        CalendarDateChangeListener, CalendarWeekDayHighlightListener {
 
     private WeekCalendarView weekCalendar;
 
@@ -27,7 +28,7 @@ public class MainActivity extends AppCompatActivity implements CalendarDateChang
 
     @Override
     public void onCalendarDateChange(DateInfo dateInfo) {
-        Log.v(">>>", dateInfo+ " <<");
+        Log.v(">>>", dateInfo + " <<");
         TextView date = (TextView) findViewById(R.id.selectedDate);
         date.setText(dateInfo.toString());
     }

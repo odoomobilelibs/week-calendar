@@ -1,6 +1,6 @@
-package com.dpr.calendar.listeners;
+package com.odoo.calendar.listeners;
 
-import com.dpr.calendar.utils.DateInfo;
+import com.odoo.calendar.utils.DateInfo;
 
 public interface OnMonthChangeListener {
     void onMonthChange(DateInfo dateInfo);
